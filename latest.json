@@ -1,4 +1,23 @@
 {
   "version": 1,
-  "apps": {}
+  "apps": {
+    "pos": {
+      "version": "1.0.0",
+      "fileName": "auren-pos-1.0.0.exe",
+      "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-pos-1.0.0.exe",
+      "sha256": "2442e76ed6737529c4a7d35bc19451650f6b109df7041873d44e9aa1563177fe"
+    },
+    "backoffice": {
+      "version": "1.0.0",
+      "fileName": "auren-backoffice-1.0.0.exe",
+      "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-backoffice-1.0.0.exe",
+      "sha256": "ab937ecac1254d04552e558563a2a5636e0964474fe651abba9ed8e632313c1b"
+    },
+    "server": {
+      "version": "1.0.0",
+      "fileName": "auren-server-1.0.0.exe",
+      "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-server-1.0.0.exe",
+      "sha256": "435c8f3d28ae8e64fcbdece82e893082517af0805217706fb7f2145cf539f562"
+    }
+  }
 }
