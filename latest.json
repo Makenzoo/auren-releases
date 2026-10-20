@@ -2,57 +2,57 @@
   "version": 2,
   "apps": {
     "pos": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platforms": {
         "windows": {
-          "version": "1.0.0",
-          "fileName": "auren-pos-1.0.0.exe",
-          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-pos-1.0.0.exe",
-          "sha256": "c24e62da195c3788877b508719cbe3e2cd89643ed50ce6f2b2eb5e7b685f89db"
+          "version": "1.0.1",
+          "fileName": "auren-pos-1.0.1.exe",
+          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.1/auren-pos-1.0.1.exe",
+          "sha256": "bbed5d50b071c2306e4a42f4bea26179a1f5bc7a993781df4ea5cd140b1deec4"
         },
         "mac": {
-          "version": "1.0.0",
-          "fileName": "auren-pos-1.0.0-mac-arm64.zip",
-          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-pos-1.0.0-mac-arm64.zip",
-          "sha256": "e35b78dc8be425165aab5564248f402138817a6c09a8a84df021aa288b8ee88f",
+          "version": "1.0.1",
+          "fileName": "auren-pos-1.0.1-mac-arm64.zip",
+          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.1/auren-pos-1.0.1-mac-arm64.zip",
+          "sha256": "07d6099d7fafea2a5d164c717636e067c3e000017ebcbfb319503127bf3b75a7",
           "appBundle": "AUREN POS.app",
           "architecture": "arm64"
         }
       }
     },
     "backoffice": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platforms": {
         "windows": {
-          "version": "1.0.0",
-          "fileName": "auren-backoffice-1.0.0.exe",
-          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-backoffice-1.0.0.exe",
-          "sha256": "d50b3385ee6ffd7e2d79758831f2875f84cd00fd1b6c640324bc492aac1e4d20"
+          "version": "1.0.1",
+          "fileName": "auren-backoffice-1.0.1.exe",
+          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.1/auren-backoffice-1.0.1.exe",
+          "sha256": "039ea8a11b1d0f21bbc29310b747109dd4ad18bce8ae2f6dda5281fa0c032252"
         },
         "mac": {
-          "version": "1.0.0",
-          "fileName": "auren-backoffice-1.0.0-mac-arm64.zip",
-          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-backoffice-1.0.0-mac-arm64.zip",
-          "sha256": "a6c0db5bf01d61e9ab440b9892f277d7b2f223ada470a458fb475bb17eb1ae9f",
+          "version": "1.0.1",
+          "fileName": "auren-backoffice-1.0.1-mac-arm64.zip",
+          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.1/auren-backoffice-1.0.1-mac-arm64.zip",
+          "sha256": "238559041403a4bf05735ce3278d9c5ab185727ecf2204e53b66df21e8936f30",
           "appBundle": "AUREN Back Office.app",
           "architecture": "arm64"
         }
       }
     },
     "server": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "platforms": {
         "windows": {
-          "version": "1.0.0",
-          "fileName": "auren-server-1.0.0.exe",
-          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-server-1.0.0.exe",
-          "sha256": "afce38bb553b03ebc95b063cf864a5c1c55fd22adc9210d4606c76d3a7a1ed08"
+          "version": "1.0.1",
+          "fileName": "auren-server-1.0.1.exe",
+          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.1/auren-server-1.0.1.exe",
+          "sha256": "7c6f901153d76f7f72852e9cdb1f46f5e46d4d3591294c3e3a6ffbbcc617e3f8"
         },
         "mac": {
-          "version": "1.0.0",
-          "fileName": "auren-server-1.0.0-mac-arm64.zip",
-          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.0/auren-server-1.0.0-mac-arm64.zip",
-          "sha256": "c5d6c2879bdb1bd5b981fdbfe09da5c3dc6d0a638a84371bdce8ff0dd15f2fdd",
+          "version": "1.0.1",
+          "fileName": "auren-server-1.0.1-mac-arm64.zip",
+          "url": "https://github.com/Makenzoo/auren-releases/releases/download/v1.0.1/auren-server-1.0.1-mac-arm64.zip",
+          "sha256": "3be498e48acc2eda110a71a1064f042e4e030568b6c18ff622722c9603d9c3b6",
           "appBundle": "AUREN Server.app",
           "architecture": "arm64"
         }
