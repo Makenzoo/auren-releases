@@ -1,0 +1,16 @@
+{
+  "id": "/mobile",
+  "name": "AUREN Service",
+  "short_name": "AUREN",
+  "description": "Мобильное рабочее место официанта и кассира AUREN",
+  "lang": "ru",
+  "start_url": "/mobile",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f5f1",
+  "theme_color": "#17251f",
+  "icons": [
+    { "src": "/assets/icons/pos.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
