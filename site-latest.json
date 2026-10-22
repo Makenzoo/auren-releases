@@ -1,14 +1,14 @@
 {
   "version": 1,
   "site": {
-    "version": "1.4.51",
+    "version": "1.4.52",
     "requiredServerVersion": "1.4.46",
     "files": [
       {
         "path": "/mobile",
         "fileName": "site-index.html",
-        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-index-c958fec64eb1a97f.html",
-        "sha256": "c958fec64eb1a97f8715a2de68d6d4c5d69a3c68d0908fe22394caabb718da62",
+        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-index-8f06edab53655efb.html",
+        "sha256": "8f06edab53655efb671d3cf720ae1c85dbc826d1e128f450cdf1a4581c1c578d",
         "contentType": "text/html; charset=utf-8"
       },
       {
