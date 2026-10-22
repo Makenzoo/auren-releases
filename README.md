@@ -1,9 +1,15 @@
-# AUREN releases
+# AUREN для кафе
 
-This public repository hosts downloadable AUREN application builds and the launcher catalog (`latest.json`). Application installers are published as GitHub Release assets. The launcher reads the catalog from this repository and verifies every downloaded file with SHA-256.
+POS, Back Office и сервисные страницы AUREN открываются в браузере и публикуются на Vercel. Отдельные настольные приложения для кассира и администратора сейчас не распространяются.
 
-The build workflow belongs in the **private source repository**. Before its first run, add an Actions secret named `AUREN_RELEASE_TOKEN` there. The token must have `Contents: read and write` access to this release repository so the workflow can create releases and update `latest.json`.
+## Локальный сервер кафе
 
-Do not upload application source code, AUREN Admin, signing private keys, customer license files, or credentials here. The catalog remains empty until the first signed-app build is published.
+AUREN Server хранит рабочие данные кафе и связывает устройства в локальной сети. Для пилота доступны сборки Windows и Mac:
 
-Customers download the AUREN Launcher and use it to install POS, Back Office, and Server. A valid license issued by AUREN Admin is required when each application starts.
+- [Открыть релиз AUREN Server 1.4.47 (pilot)](https://github.com/Makenzoo/auren-releases/releases/tag/server-v1.4.47)
+- Windows x64: [установщик](https://github.com/Makenzoo/auren-releases/releases/download/server-v1.4.47/auren-server-1.4.47-windows-x64.exe) · [SHA-256](https://github.com/Makenzoo/auren-releases/releases/download/server-v1.4.47/auren-server-1.4.47-windows-x64.exe.sha256)
+- Mac Apple Silicon: [архив приложения](https://github.com/Makenzoo/auren-releases/releases/download/server-v1.4.47/auren-server-1.4.47-macos-arm64.zip) · [SHA-256](https://github.com/Makenzoo/auren-releases/releases/download/server-v1.4.47/auren-server-1.4.47-macos-arm64.zip.sha256)
+
+**Важно:** версия 1.4.47 — неподписанная пилотная сборка для контролируемой проверки. Она ещё не одобрена для коммерческой установки в кафе. Перед продажей нужны проверка на целевом компьютере, доверенная подпись установщиков и приёмочные испытания оборудования и работы без интернета.
+
+При оплате через Kaspi Smart POS кассир отмечает подтверждённый терминалом платёж в AUREN. Терминальный слип не заменяет фискальный чек: для фискализации кафе должна отдельно использовать Kaspi Кассу или зарегистрированную ККМ.
