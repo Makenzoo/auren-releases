@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "site": {
+    "version": "1.4.48",
+    "requiredServerVersion": "1.4.46",
+    "files": [
+      {
+        "path": "/mobile",
+        "fileName": "site-index.html",
+        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-index-ac5e08a63c81bc54.html",
+        "sha256": "ac5e08a63c81bc54b0336e191bcf89e22a0f3bcfd971e7669563cb39d225bac7",
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/backoffice",
+        "fileName": "site-backoffice.html",
+        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-backoffice-56a908994e75f05a.html",
+        "sha256": "56a908994e75f05a53c4a1e2e6be61b71db3e65378e0074b9445ad0a9159a499",
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/mobile.webmanifest",
+        "fileName": "site-mobile.webmanifest",
+        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-mobile-7bb74b4f5be704bd.webmanifest",
+        "sha256": "7bb74b4f5be704bd8982890eb969747eb745acfb546dbb893383981785251775",
+        "contentType": "application/manifest+json; charset=utf-8"
+      },
+      {
+        "path": "/mobile-sw.js",
+        "fileName": "site-mobile-sw.js",
+        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-mobile-sw-e44d82e002a62041.js",
+        "sha256": "e44d82e002a62041420b00dbc37fb871c3b98611b19f39d42035b2fdd193ce42",
+        "contentType": "application/javascript; charset=utf-8"
+      },
+      {
+        "path": "/assets/icons/pos.png",
+        "fileName": "site-pos.png",
+        "url": "https://raw.githubusercontent.com/Makenzoo/auren-releases/main/site/site-pos-d1b9d291b6abb98a.png",
+        "sha256": "d1b9d291b6abb98adebc73010e4caaec154e970ffbb3b5d0fe4b69a5dbbfc11d",
+        "contentType": "image/png"
+      }
+    ]
+  }
+}
